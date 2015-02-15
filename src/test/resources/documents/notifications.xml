@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:notifications xmlns:ns6="http://schemas.es.net/nsi/2014/03/dds/configuration" xmlns:ns5="http://schemas.ogf.org/nsi/2014/02/discovery/nsa" xmlns:ns7="http://schemas.ogf.org/nsi/2013/09/topology#"
+    xmlns:ns0="http://schemas.ogf.org/nsi/2014/02/discovery/types" xmlns:ns2="urn:ietf:params:xml:ns:vcard-4.0" xmlns:ns1="http://schemas.ogf.org/nml/2013/05/base#"
+    xmlns:ns4="http://nordu.net/namespaces/2013/12/gnsbod" xmlns:ns3="http://schemas.ogf.org/nsi/2013/12/services/definition" providerId="urn:ogf:network:es.net:2013:nsa:nsi-aggr-east"
+    id="694459d4-7565-4806-b97e-410236060032" href="https://nsi-aggr-west.es.net/dds/subscriptions/694459d4-7565-4806-b97e-410236060032">
+    <ns0:notification>
+        <discovered>2015-02-13T13:45:51-08:00</discovered>
+        <event>All</event>
+        <document id="urn:ogf:network:aist.go.jp:2013:nsa"
+            href="https://nsi-aggr-west.es.net/dds/documents/urn%3Aogf%3Anetwork%3Aaist.go.jp%3A2013%3Ansa/vnd.ogf.nsi.nsa.v1%2Bxml/urn%3Aogf%3Anetwork%3Aaist.go.jp%3A2013%3Ansa"
+            version="2014-09-10T12:49:00Z" expires="2016-01-27T10:23:05.131+01:00">
+            <nsa>urn:ogf:network:aist.go.jp:2013:nsa</nsa>
+            <type>vnd.ogf.nsi.nsa.v1+xml</type>
+            <content>
+                <ns5:nsa id="urn:ogf:network:aist.go.jp:2013:nsa" version="2014-09-10T12:49:00Z">
+                    <location>
+                        <longitude>140.133</longitude>
+                        <latitude>36.06</latitude>
+                    </location>
+                    <networkId>urn:ogf:network:aist.go.jp:2013:topology</networkId>
+                    <interface>
+                        <type>application/vnd.ogf.nsi.cs.v2.provider+soap</type>
+                        <href>https://163.220.30.173:22311/aist_upa/services/ConnectionProvider</href>
+                    </interface>
+                    <feature type="vnd.ogf.nsi.cs.v2.role.uPA"/>
+                    <peersWith>urn:ogf:network:jgn-x.jp:2013:nsa</peersWith>
+                </ns5:nsa>
+            </content>
+        </document>
+    </ns0:notification>
+    <ns0:notification>
+        <discovered>2015-02-13T13:45:51-08:00</discovered>
+        <event>All</event>
+        <document id="urn:ogf:network:icair.org:2013:nsa:nsi-am-sl"
+            href="https://nsi-aggr-west.es.net/dds/documents/urn%3Aogf%3Anetwork%3Aicair.org%3A2013%3Ansa%3Ansi-am-sl/vnd.ogf.nsi.nsa.v1%2Bxml/urn%3Aogf%3Anetwork%3Aicair.org%3A2013%3Ansa%3Ansi-am-sl"
+            version="2015-01-30T13:43:10.794-06:00" expires="2016-01-30T20:43:12.237+01:00">
+            <nsa>urn:ogf:network:icair.org:2013:nsa:nsi-am-sl</nsa>
+            <type>vnd.ogf.nsi.nsa.v1+xml</type>
+            <content>
+                <ns5:nsa id="urn:ogf:network:icair.org:2013:nsa:nsi-am-sl" version="2015-01-30T13:43:10.794-06:00">
+                    <name>iCAIR Aggregator</name>
+                    <softwareVersion>1.0-SNAPSHOT (22548c9)</softwareVersion>
+                    <startTime>2015-01-30T13:35:16.154-06:00</startTime>
+                    <adminContact>
+                        <ns2:vcard>
+                            <ns2:uid>
+                                <ns2:uri>https://nsi-am-sl.northwestern.edu/nsi-v2/ConnectionServiceProvider#adminContact</ns2:uri>
+                            </ns2:uid>
+                            <ns2:prodid>
+                                <ns2:text>safnari </ns2:text>
+                            </ns2:prodid>
+                            <ns2:rev>
+                                <ns2:timestamp>20150130T133516Z</ns2:timestamp>
+                            </ns2:rev>
+                            <ns2:kind>
+                                <ns2:text>individual</ns2:text>
+                            </ns2:kind>
+                            <ns2:fn>
+                                <ns2:text>Fei Yeh</ns2:text>
+                            </ns2:fn>
+                            <ns2:n>
+                                <ns2:surname>Yeh</ns2:surname>
+                                <ns2:given>Fei</ns2:given>
+                            </ns2:n>
+                        </ns2:vcard>
+                    </adminContact>
+                    <location>
+                        <longitude>-87.6168</longitude>
+                        <latitude>41.895176</latitude>
+                    </location>
+                    <interface>
+                        <type>application/vnd.ogf.nsi.dds.v1+xml</type>
+                        <href>https://nsi-am-sl.northwestern.edu/dds</href>
+                    </interface>
+                    <interface>
+                        <type>application/vnd.ogf.nsi.cs.v2.requester+soap</type>
+                        <href>https://nsi-am-sl.northwestern.edu/nsi-v2/ConnectionServiceRequester</href>
+                    </interface>
+                    <interface>
+                        <type>application/vnd.ogf.nsi.cs.v2.provider+soap</type>
+                        <href>https://nsi-am-sl.northwestern.edu/nsi-v2/ConnectionServiceProvider</href>
+                    </interface>
+                    <feature type="vnd.ogf.nsi.cs.v2.role.aggregator"/>
+                    <peersWith>urn:ogf:network:es.net:2013:nsa:nsi-aggr-west</peersWith>
+                </ns5:nsa>
+            </content>
+        </document>
+    </ns0:notification>
+    <ns0:notification>
+        <discovered>2015-02-13T13:45:51-08:00</discovered>
+        <event>All</event>
+        <document id="urn:ogf:network:ampath.net:2013:nsa"
+            href="https://nsi-aggr-west.es.net/dds/documents/urn%3Aogf%3Anetwork%3Aampath.net%3A2013%3Ansa/vnd.ogf.nsi.nsa.v1%2Bxml/urn%3Aogf%3Anetwork%3Aampath.net%3A2013%3Ansa"
+            version="2014-11-22T20:59:45Z" expires="2015-11-22T22:11:25.453+01:00">
+            <nsa>urn:ogf:network:ampath.net:2013:nsa</nsa>
+            <type>vnd.ogf.nsi.nsa.v1+xml</type>
+            <content>
+                <ns5:nsa id="urn:ogf:network:ampath.net:2013:nsa" version="2014-11-22T20:59:45Z">
+                    <name>ampath.net</name>
+                    <softwareVersion>OpenNSA-git-20141122</softwareVersion>
+                    <startTime>2014-11-22T20:59:45Z</startTime>
+                    <networkId>urn:ogf:network:ampath.net:2013:topology</networkId>
+                    <interface>
+                        <type>application/vnd.ogf.nsi.cs.v2.provider+soap</type>
+                        <href>https://nsi.ampath.net:9443/NSI/services/CS2</href>
+                    </interface>
+                    <interface>
+                        <type>application/vnd.org.ogf.nsi.cs.v2+soap</type>
+                        <href>https://nsi.ampath.net:9443/NSI/services/CS2</href>
+                    </interface>
+                    <interface>
+                        <type>application/vnd.ogf.nsi.topology.v2+xml</type>
+                        <href>https://nsi.ampath.net:9443/NSI/ampath.net:2013.nml.xml</href>
+                    </interface>
+                    <feature type="vnd.ogf.nsi.cs.v2.role.aggregator"/>
+                    <feature type="vnd.ogf.nsi.cs.v2.role.uPA"/>
+                    <other/>
+                </ns5:nsa>
+            </content>
+        </document>
+    </ns0:notification>
+    <ns0:notification>
+        <discovered>2015-02-13T13:45:51-08:00</discovered>
+        <event>All</event>
+        <document id="urn:ogf:network:nordu.net:2013:topology"
+            href="https://nsi-aggr-west.es.net/dds/documents/urn%3Aogf%3Anetwork%3Ageant.net%3A2013%3Ansa/vnd.ogf.nsi.topology.v2%2Bxml/urn%3Aogf%3Anetwork%3Anordu.net%3A2013%3Atopology"
+            version="2014-10-16T08:42:00.221Z" expires="2015-10-16T01:42:00.591-07:00">
+            <nsa>urn:ogf:network:geant.net:2013:nsa</nsa>
+            <type>vnd.ogf.nsi.topology.v2+xml</type>
+            <content>
+                <ns1:Topology id="urn:ogf:network:nordu.net:2013:topology" version="2014-10-16T08:42:00.221Z">
+                    <ns1:name>nordu.net:2013</ns1:name>
+                    <ns1:BidirectionalPort id="urn:ogf:network:nordu.net:2013:topology:funet">
+                        <ns1:name>funet</ns1:name>
+                        <ns1:PortGroup id="urn:ogf:network:nordu.net:2013:topology:funet-in"/>
+                        <ns1:PortGroup id="urn:ogf:network:nordu.net:2013:topology:funet-out"/>
+                    </ns1:BidirectionalPort>
+                    <ns1:BidirectionalPort id="urn:ogf:network:nordu.net:2013:topology:deic">
+                        <ns1:name>deic</ns1:name>
+                        <ns1:PortGroup id="urn:ogf:network:nordu.net:2013:topology:deic-in"/>
+                        <ns1:PortGroup id="urn:ogf:network:nordu.net:2013:topology:deic-out"/>
+                    </ns1:BidirectionalPort>
+                    <ns1:BidirectionalPort id="urn:ogf:network:nordu.net:2013:topology:uvalight">
+                        <ns1:name>uvalight</ns1:name>
+                        <ns1:PortGroup id="urn:ogf:network:nordu.net:2013:topology:uvalight-in"/>
+                        <ns1:PortGroup id="urn:ogf:network:nordu.net:2013:topology:uvalight-out"/>
+                    </ns1:BidirectionalPort>
+                    <ns1:BidirectionalPort id="urn:ogf:network:nordu.net:2013:topology:surfnet">
+                        <ns1:name>surfnet</ns1:name>
+                        <ns1:PortGroup id="urn:ogf:network:nordu.net:2013:topology:surfnet-in"/>
+                        <ns1:PortGroup id="urn:ogf:network:nordu.net:2013:topology:surfnet-out"/>
+                    </ns1:BidirectionalPort>
+                    <ns1:BidirectionalPort id="urn:ogf:network:nordu.net:2013:topology:cph-ps">
+                        <ns1:name>cph-ps</ns1:name>
+                        <ns1:PortGroup id="urn:ogf:network:nordu.net:2013:topology:cph-ps-in"/>
+                        <ns1:PortGroup id="urn:ogf:network:nordu.net:2013:topology:cph-ps-out"/>
+                    </ns1:BidirectionalPort>
+                    <ns1:BidirectionalPort id="urn:ogf:network:nordu.net:2013:topology:onsala">
+                        <ns1:name>onsala</ns1:name>
+                        <ns1:PortGroup id="urn:ogf:network:nordu.net:2013:topology:onsala-in"/>
+                        <ns1:PortGroup id="urn:ogf:network:nordu.net:2013:topology:onsala-out"/>
+                    </ns1:BidirectionalPort>
+                    <ns1:BidirectionalPort id="urn:ogf:network:nordu.net:2013:topology:geant">
+                        <ns1:name>geant</ns1:name>
+                        <ns1:PortGroup id="urn:ogf:network:nordu.net:2013:topology:geant-in"/>
+                        <ns1:PortGroup id="urn:ogf:network:nordu.net:2013:topology:geant-out"/>
+                    </ns1:BidirectionalPort>
+                    <ns3:serviceDefinition id="urn:ogf:network:nordu.net:2013:topologyServiceDefinition:EVTS.A-GOLE">
+                        <name>GLIF Automated GOLE Ethernet VLAN Transfer Service</name>
+                        <serviceType>http://services.ogf.org/nsi/2013/07/definitions/EVTS.A-GOLE</serviceType>
+                    </ns3:serviceDefinition>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasOutboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:nordu.net:2013:topology:funet-out">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">2031-2035</ns1:LabelGroup>
+                            <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#isAlias">
+                                <ns1:PortGroup id="urn:ogf:network:funet.fi:2013:topology:espoo1-nordunet-in"/>
+                            </ns1:Relation>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasInboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:nordu.net:2013:topology:funet-in">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">2031-2035</ns1:LabelGroup>
+                            <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#isAlias">
+                                <ns1:PortGroup id="urn:ogf:network:funet.fi:2013:topology:espoo1-nordunet-out"/>
+                            </ns1:Relation>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasOutboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:nordu.net:2013:topology:deic-out">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">1780-1799</ns1:LabelGroup>
+                            <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#isAlias">
+                                <ns1:PortGroup id="urn:ogf:network:deic.dk:2013:topology:nordunet-in"/>
+                            </ns1:Relation>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasInboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:nordu.net:2013:topology:deic-in">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">1780-1799</ns1:LabelGroup>
+                            <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#isAlias">
+                                <ns1:PortGroup id="urn:ogf:network:deic.dk:2013:topology:nordunet-out"/>
+                            </ns1:Relation>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasOutboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:nordu.net:2013:topology:uvalight-out">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">1780-1799</ns1:LabelGroup>
+                            <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#isAlias">
+                                <ns1:PortGroup id="urn:ogf:network:uva.nl:2014:topology:ndn-in"/>
+                            </ns1:Relation>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasInboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:nordu.net:2013:topology:uvalight-in">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">1780-1799</ns1:LabelGroup>
+                            <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#isAlias">
+                                <ns1:PortGroup id="urn:ogf:network:uva.nl:2014:topology:ndn-out"/>
+                            </ns1:Relation>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasOutboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:nordu.net:2013:topology:surfnet-out">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">2-4094</ns1:LabelGroup>
+                            <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#isAlias">
+                                <ns1:PortGroup id="urn:ogf:network:surfnet.nl:1990:production7:nordunet-1-in"/>
+                            </ns1:Relation>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasInboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:nordu.net:2013:topology:surfnet-in">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">2-4094</ns1:LabelGroup>
+                            <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#isAlias">
+                                <ns1:PortGroup id="urn:ogf:network:surfnet.nl:1990:production7:nordunet-1-out"/>
+                            </ns1:Relation>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasOutboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:nordu.net:2013:topology:cph-ps-out">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">1780-1799</ns1:LabelGroup>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasInboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:nordu.net:2013:topology:cph-ps-in">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">1780-1799</ns1:LabelGroup>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasOutboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:nordu.net:2013:topology:onsala-out">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">2000-2010</ns1:LabelGroup>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasInboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:nordu.net:2013:topology:onsala-in">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">2000-2010</ns1:LabelGroup>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasOutboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:nordu.net:2013:topology:geant-out">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">1780-1799</ns1:LabelGroup>
+                            <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#isAlias">
+                                <ns1:PortGroup id="urn:ogf:network:geant.net:2013:topology:nordunet-in"/>
+                            </ns1:Relation>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasInboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:nordu.net:2013:topology:geant-in">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">1780-1799</ns1:LabelGroup>
+                            <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#isAlias">
+                                <ns1:PortGroup id="urn:ogf:network:geant.net:2013:topology:nordunet-out"/>
+                            </ns1:Relation>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasService">
+                        <ns1:SwitchingService id="urn:ogf:network:nordu.net:2013:topologyServiceDomain:a-gole:testbed:A-GOLE-EVTS" labelSwapping="true"
+                            labelType="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">
+                            <ns3:serviceDefinition id="urn:ogf:network:nordu.net:2013:topologyServiceDefinition:EVTS.A-GOLE">
+                                <name>GLIF Automated GOLE Ethernet VLAN Transfer Service</name>
+                                <serviceType>http://services.ogf.org/nsi/2013/07/definitions/EVTS.A-GOLE</serviceType>
+                            </ns3:serviceDefinition>
+                        </ns1:SwitchingService>
+                    </ns1:Relation>
+                </ns1:Topology>
+            </content>
+        </document>
+    </ns0:notification>
+    <ns0:notification>
+        <discovered>2015-02-13T13:45:51-08:00</discovered>
+        <event>All</event>
+        <document id="urn:ogf:network:sinet.ac.jp:2013:nsa"
+            href="https://nsi-aggr-west.es.net/dds/documents/urn%3Aogf%3Anetwork%3Asinet.ac.jp%3A2013%3Ansa/vnd.ogf.nsi.nsa.v1%2Bxml/urn%3Aogf%3Anetwork%3Asinet.ac.jp%3A2013%3Ansa"
+            version="2013-07-26T10:42:44Z" expires="2016-01-27T10:23:04.624+01:00">
+            <nsa>urn:ogf:network:sinet.ac.jp:2013:nsa</nsa>
+            <type>vnd.ogf.nsi.nsa.v1+xml</type>
+            <content>
+                <ns5:nsa id="urn:ogf:network:sinet.ac.jp:2013:nsa" version="2013-07-26T10:42:44Z">
+                    <location>
+                        <longitude>139.758</longitude>
+                        <latitude>35.693</latitude>
+                    </location>
+                    <networkId>urn:ogf:network:sinet.ac.jp:2013:topology</networkId>
+                    <interface>
+                        <type>application/vnd.ogf.nsi.cs.v2.provider+soap</type>
+                        <href>https://150.100.12.124:9091/sinet_upa/services/connectionprovider</href>
+                    </interface>
+                    <feature type="vnd.ogf.nsi.cs.v2.role.uPA"/>
+                    <peersWith>urn:ogf:network:jgn-x.jp:2013:nsa</peersWith>
+                </ns5:nsa>
+            </content>
+        </document>
+    </ns0:notification>
+    <ns0:notification>
+        <discovered>2015-02-13T13:45:51-08:00</discovered>
+        <event>All</event>
+        <document id="urn:ogf:network:ampath.net:2013:topology"
+            href="https://nsi-aggr-west.es.net/dds/documents/urn%3Aogf%3Anetwork%3Aampath.net%3A2013%3Ansa/vnd.ogf.nsi.topology.v2%2Bxml/urn%3Aogf%3Anetwork%3Aampath.net%3A2013%3Atopology"
+            version="2014-11-22T20:59:45Z" expires="2015-11-22T22:11:26.092+01:00">
+            <nsa>urn:ogf:network:ampath.net:2013:nsa</nsa>
+            <type>vnd.ogf.nsi.topology.v2+xml</type>
+            <content>
+                <ns1:Topology id="urn:ogf:network:ampath.net:2013:topology" version="2014-11-22T20:59:45Z">
+                    <ns1:name>ampath.net:2013</ns1:name>
+                    <ns1:BidirectionalPort id="urn:ogf:network:ampath.net:2013:topology:starlight">
+                        <ns1:name>starlight</ns1:name>
+                        <ns1:PortGroup id="urn:ogf:network:ampath.net:2013:topology:starlight-in"/>
+                        <ns1:PortGroup id="urn:ogf:network:ampath.net:2013:topology:starlight-out"/>
+                    </ns1:BidirectionalPort>
+                    <ns1:BidirectionalPort id="urn:ogf:network:ampath.net:2013:topology:southernlight">
+                        <ns1:name>southernlight</ns1:name>
+                        <ns1:PortGroup id="urn:ogf:network:ampath.net:2013:topology:southernlight-in"/>
+                        <ns1:PortGroup id="urn:ogf:network:ampath.net:2013:topology:southernlight-out"/>
+                    </ns1:BidirectionalPort>
+                    <ns1:BidirectionalPort id="urn:ogf:network:ampath.net:2013:topology:ndn">
+                        <ns1:name>ndn</ns1:name>
+                        <ns1:PortGroup id="urn:ogf:network:ampath.net:2013:topology:ndn-in"/>
+                        <ns1:PortGroup id="urn:ogf:network:ampath.net:2013:topology:ndn-out"/>
+                    </ns1:BidirectionalPort>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasInboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:ampath.net:2013:topology:starlight-in">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">1779-1799</ns1:LabelGroup>
+                            <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#isAlias">
+                                <ns1:PortGroup id="urn:ogf:network:icair.org:2013:topology:ampath-out"/>
+                            </ns1:Relation>
+                        </ns1:PortGroup>
+                        <ns1:PortGroup id="urn:ogf:network:ampath.net:2013:topology:southernlight-in">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">1779-1799</ns1:LabelGroup>
+                            <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#isAlias">
+                                <ns1:PortGroup id="urn:ogf:network:southernlight.net.br:2013:topology:bi-ampath-out"/>
+                            </ns1:Relation>
+                        </ns1:PortGroup>
+                        <ns1:PortGroup id="urn:ogf:network:ampath.net:2013:topology:ndn-in">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">1782-1785</ns1:LabelGroup>
+                            <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#isAlias">
+                                <ns1:PortGroup id="urn:ogf:network:nordu.net:2013:topology:ampath-out"/>
+                            </ns1:Relation>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasOutboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:ampath.net:2013:topology:starlight-out">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">1779-1799</ns1:LabelGroup>
+                            <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#isAlias">
+                                <ns1:PortGroup id="urn:ogf:network:icair.org:2013:topology:ampath-in"/>
+                            </ns1:Relation>
+                        </ns1:PortGroup>
+                        <ns1:PortGroup id="urn:ogf:network:ampath.net:2013:topology:southernlight-out">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">1779-1799</ns1:LabelGroup>
+                            <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#isAlias">
+                                <ns1:PortGroup id="urn:ogf:network:southernlight.net.br:2013:topology:bi-ampath-in"/>
+                            </ns1:Relation>
+                        </ns1:PortGroup>
+                        <ns1:PortGroup id="urn:ogf:network:ampath.net:2013:topology:ndn-out">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">1782-1785</ns1:LabelGroup>
+                            <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#isAlias">
+                                <ns1:PortGroup id="urn:ogf:network:nordu.net:2013:topology:ampath-in"/>
+                            </ns1:Relation>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                </ns1:Topology>
+            </content>
+        </document>
+    </ns0:notification>
+    <ns0:notification>
+        <discovered>2015-02-13T13:45:51-08:00</discovered>
+        <event>All</event>
+        <document id="urn:ogf:network:uvalight.net:2013:nsa"
+            href="https://nsi-aggr-west.es.net/dds/documents/urn%3Aogf%3Anetwork%3Auvalight.net%3A2013%3Ansa/vnd.ogf.nsi.nsa.v1%2Bxml/urn%3Aogf%3Anetwork%3Auvalight.net%3A2013%3Ansa"
+            version="2015-02-05T16:49:41Z" expires="2016-02-05T18:03:21.804+01:00">
+            <nsa>urn:ogf:network:uvalight.net:2013:nsa</nsa>
+            <type>vnd.ogf.nsi.nsa.v1+xml</type>
+            <content>
+                <ns5:nsa id="urn:ogf:network:uvalight.net:2013:nsa" version="2015-02-05T16:49:41Z">
+                    <name>uvalight.net</name>
+                    <softwareVersion>OpenNSA-git-20150205</softwareVersion>
+                    <startTime>2015-02-05T16:49:41Z</startTime>
+                    <networkId>urn:ogf:network:uvalight.net:2013:topology</networkId>
+                    <interface>
+                        <type>application/vnd.ogf.nsi.cs.v2.provider+soap</type>
+                        <href>https://nsa.uvalight.net:9443/NSI/services/CS2</href>
+                    </interface>
+                    <interface>
+                        <type>application/vnd.org.ogf.nsi.cs.v2+soap</type>
+                        <href>https://nsa.uvalight.net:9443/NSI/services/CS2</href>
+                    </interface>
+                    <interface>
+                        <type>application/vnd.ogf.nsi.topology.v2+xml</type>
+                        <href>https://nsa.uvalight.net:9443/NSI/uvalight.net:2013.nml.xml</href>
+                    </interface>
+                    <feature type="vnd.ogf.nsi.cs.v2.role.aggregator"/>
+                    <feature type="vnd.ogf.nsi.cs.v2.role.uPA"/>
+                    <other>
+                        <ns4:TopologyReachability>
+                            <Topology id="urn:ogf:network:pionier.pl:2013:topology" cost="4"/>
+                            <Topology id="urn:ogf:network:grnet.gr:2013:topology" cost="4"/>
+                            <Topology id="urn:ogf:network:heanet.ie:2013:topology" cost="4"/>
+                            <Topology id="urn:ogf:network:ja.net:2013:topology" cost="4"/>
+                            <Topology id="urn:ogf:network:surfnet.nl:1990:testbed" cost="1"/>
+                            <Topology id="urn:ogf:network:manlan.internet2.edu:2013" cost="4"/>
+                            <Topology id="urn:ogf:network:surfnet.nl:1990:production7" cost="2"/>
+                            <Topology id="urn:ogf:network:geant.net:2013:topology" cost="2"/>
+                            <Topology id="urn:ogf:network:es.net:2013" cost="5"/>
+                            <Topology id="urn:ogf:network:nordu.net:2013:topology" cost="1"/>
+                            <Topology id="urn:ogf:network:netherlight.net:2013:production7" cost="1"/>
+                            <Topology id="urn:ogf:network:funet.fi:2013:topology" cost="2"/>
+                            <Topology id="urn:ogf:network:deic.dk:2013:topology" cost="2"/>
+                        </ns4:TopologyReachability>
+                    </other>
+                </ns5:nsa>
+            </content>
+        </document>
+    </ns0:notification>
+    <ns0:notification>
+        <discovered>2015-02-13T13:45:51-08:00</discovered>
+        <event>All</event>
+        <document id="urn:ogf:network:deic.dk:2013:topology"
+            href="https://nsi-aggr-west.es.net/dds/documents/urn%3Aogf%3Anetwork%3Ageant.net%3A2013%3Ansa/vnd.ogf.nsi.topology.v2%2Bxml/urn%3Aogf%3Anetwork%3Adeic.dk%3A2013%3Atopology"
+            version="2015-02-13T21:43:43.445Z" expires="2016-02-13T22:43:43.713+01:00">
+            <nsa>urn:ogf:network:geant.net:2013:nsa</nsa>
+            <type>vnd.ogf.nsi.topology.v2+xml</type>
+            <content>
+                <ns1:Topology id="urn:ogf:network:deic.dk:2013:topology" version="2015-02-13T21:43:43.445Z">
+                    <ns1:name>deic.dk</ns1:name>
+                    <ns1:BidirectionalPort id="urn:ogf:network:deic.dk:2013:topology:funet-geant">
+                        <ns1:name>funet-geant</ns1:name>
+                        <ns1:PortGroup id="urn:ogf:network:deic.dk:2013:topology:funet-geant-in"/>
+                        <ns1:PortGroup id="urn:ogf:network:deic.dk:2013:topology:funet-geant-out"/>
+                    </ns1:BidirectionalPort>
+                    <ns1:BidirectionalPort id="urn:ogf:network:deic.dk:2013:topology:StoragePort">
+                        <ns1:name>StoragePort</ns1:name>
+                        <ns1:PortGroup id="urn:ogf:network:deic.dk:2013:topology:StoragePort-in"/>
+                        <ns1:PortGroup id="urn:ogf:network:deic.dk:2013:topology:StoragePort-out"/>
+                    </ns1:BidirectionalPort>
+                    <ns1:BidirectionalPort id="urn:ogf:network:deic.dk:2013:topology:iperfPort">
+                        <ns1:name>iperfPort</ns1:name>
+                        <ns1:PortGroup id="urn:ogf:network:deic.dk:2013:topology:iperfPort-in"/>
+                        <ns1:PortGroup id="urn:ogf:network:deic.dk:2013:topology:iperfPort-out"/>
+                    </ns1:BidirectionalPort>
+                    <ns3:serviceDefinition id="urn:ogf:network:deic.dk:2013:topologyServiceDefinition:EVTS.A-GOLE">
+                        <name>GLIF Automated GOLE Ethernet VLAN Transfer Service</name>
+                        <serviceType>http://services.ogf.org/nsi/2013/07/definitions/EVTS.A-GOLE</serviceType>
+                    </ns3:serviceDefinition>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasOutboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:deic.dk:2013:topology:funet-geant-out">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">2015-2025</ns1:LabelGroup>
+                            <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#isAlias">
+                                <ns1:PortGroup id="urn:ogf:network:geant.net:2013:topology:deic-geant-in"/>
+                            </ns1:Relation>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasInboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:deic.dk:2013:topology:funet-geant-in">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">2015-2025</ns1:LabelGroup>
+                            <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#isAlias">
+                                <ns1:PortGroup id="urn:ogf:network:geant.net:2013:topology:deic-geant-out"/>
+                            </ns1:Relation>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasOutboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:deic.dk:2013:topology:StoragePort-out">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">2015-2025</ns1:LabelGroup>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasInboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:deic.dk:2013:topology:StoragePort-in">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">2015-2025</ns1:LabelGroup>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasOutboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:deic.dk:2013:topology:iperfPort-out">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">1-4094</ns1:LabelGroup>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasInboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:deic.dk:2013:topology:iperfPort-in">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">1-4094</ns1:LabelGroup>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasService">
+                        <ns1:SwitchingService id="urn:ogf:network:deic.dk:2013:topologyServiceDomain:a-gole:testbed:A-GOLE-EVTS" labelSwapping="true"
+                            labelType="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">
+                            <ns3:serviceDefinition id="urn:ogf:network:deic.dk:2013:topologyServiceDefinition:EVTS.A-GOLE">
+                                <name>GLIF Automated GOLE Ethernet VLAN Transfer Service</name>
+                                <serviceType>http://services.ogf.org/nsi/2013/07/definitions/EVTS.A-GOLE</serviceType>
+                            </ns3:serviceDefinition>
+                        </ns1:SwitchingService>
+                    </ns1:Relation>
+                </ns1:Topology>
+            </content>
+        </document>
+    </ns0:notification>
+    <ns0:notification>
+        <discovered>2015-02-13T13:45:51-08:00</discovered>
+        <event>All</event>
+        <document id="urn:ogf:network:netherlight.net:2013:production7"
+            href="https://nsi-aggr-west.es.net/dds/documents/urn%3Aogf%3Anetwork%3Anetherlight.net%3A2013%3Ansa%3Abod/vnd.ogf.nsi.topology.v2%2Bxml/urn%3Aogf%3Anetwork%3Anetherlight.net%3A2013%3Aproduction7"
+            version="2015-02-13T22:43:46+01:00" expires="2016-02-13T22:43:46.989+01:00">
+            <nsa>urn:ogf:network:netherlight.net:2013:nsa:bod</nsa>
+            <type>vnd.ogf.nsi.topology.v2+xml</type>
+            <content>
+                <ns1:Topology id="urn:ogf:network:netherlight.net:2013:production7" version="2015-02-13T22:43:46+01:00">
+                    <ns1:name>NetherLight production</ns1:name>
+                    <ns1:BidirectionalPort id="urn:ogf:network:netherlight.net:2013:production7:241">
+                        <ns1:name>port 18 no-equipement</ns1:name>
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:241-out"/>
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:241-in"/>
+                    </ns1:BidirectionalPort>
+                    <ns1:BidirectionalPort id="urn:ogf:network:netherlight.net:2013:production7:526">
+                        <ns1:name>UvA host port (0/6 of F25)</ns1:name>
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:526-out"/>
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:526-in"/>
+                    </ns1:BidirectionalPort>
+                    <ns1:BidirectionalPort id="urn:ogf:network:netherlight.net:2013:production7:manlan:1">
+                        <ns1:name>MANLAN via OME13</ns1:name>
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:manlan:1-out"/>
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:manlan:1-in"/>
+                    </ns1:BidirectionalPort>
+                    <ns1:BidirectionalPort id="urn:ogf:network:netherlight.net:2013:production7:nordu.net:1">
+                        <ns1:name>NORDUnet</ns1:name>
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:nordu.net:1-out"/>
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:nordu.net:1-in"/>
+                    </ns1:BidirectionalPort>
+                    <ns1:BidirectionalPort id="urn:ogf:network:netherlight.net:2013:production7:starlight-1">
+                        <ns1:name>ICair (formerly StarLight/StarTap)</ns1:name>
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:starlight-1-out"/>
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:starlight-1-in"/>
+                    </ns1:BidirectionalPort>
+                    <ns1:BidirectionalPort id="urn:ogf:network:netherlight.net:2013:production7:uva-1">
+                        <ns1:name>UvALight</ns1:name>
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:uva-1-out"/>
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:uva-1-in"/>
+                    </ns1:BidirectionalPort>
+                    <ns1:BidirectionalPort id="urn:ogf:network:netherlight.net:2013:production7:pionier-1">
+                        <ns1:name>PIONIER (aka the GLIF PSNC link; formerly geant:1)</ns1:name>
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:pionier-1-out"/>
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:pionier-1-in"/>
+                    </ns1:BidirectionalPort>
+                    <ns1:BidirectionalPort id="urn:ogf:network:netherlight.net:2013:production7:czechlight-1">
+                        <ns1:name>CzechLight</ns1:name>
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:czechlight-1-out"/>
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:czechlight-1-in"/>
+                    </ns1:BidirectionalPort>
+                    <ns1:BidirectionalPort id="urn:ogf:network:netherlight.net:2013:production7:pionier:1">
+                        <ns1:name>PIONIER (temporarily via 4T-1-1-3)</ns1:name>
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:pionier:1-out"/>
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:pionier:1-in"/>
+                    </ns1:BidirectionalPort>
+                    <ns1:BidirectionalPort id="urn:ogf:network:netherlight.net:2013:production7:surfnet-1">
+                        <ns1:name>SURFnet7</ns1:name>
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:surfnet-1-out"/>
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:surfnet-1-in"/>
+                    </ns1:BidirectionalPort>
+                    <ns1:BidirectionalPort id="urn:ogf:network:netherlight.net:2013:production7:dlp01">
+                        <ns1:name>DLP test host</ns1:name>
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:dlp01-out"/>
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:dlp01-in"/>
+                    </ns1:BidirectionalPort>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasOutboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:241-out">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">1799</ns1:LabelGroup>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasInboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:241-in">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">1799</ns1:LabelGroup>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasOutboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:526-out">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">1784</ns1:LabelGroup>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasInboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:526-in">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">1784</ns1:LabelGroup>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasOutboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:manlan:1-out">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">1779-1799</ns1:LabelGroup>
+                            <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#isAlias">
+                                <ns1:PortGroup id="urn:ogf:network:manlan.internet2.edu:2013::sw.net.manlan.internet2.edu:4_5:+:in"/>
+                            </ns1:Relation>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasInboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:manlan:1-in">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">1779-1799</ns1:LabelGroup>
+                            <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#isAlias">
+                                <ns1:PortGroup id="urn:ogf:network:manlan.internet2.edu:2013::sw.net.manlan.internet2.edu:4_5:+:out"/>
+                            </ns1:Relation>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasOutboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:nordu.net:1-out">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">1779-1782,1785-1799</ns1:LabelGroup>
+                            <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#isAlias">
+                                <ns1:PortGroup id="urn:ogf:network:nordu.net:2013:netherlight-in"/>
+                            </ns1:Relation>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasInboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:nordu.net:1-in">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">1779-1782,1785-1799</ns1:LabelGroup>
+                            <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#isAlias">
+                                <ns1:PortGroup id="urn:ogf:network:nordu.net:2013:netherlight-out"/>
+                            </ns1:Relation>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasOutboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:starlight-1-out">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">1779-1794,1797-1799</ns1:LabelGroup>
+                            <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#isAlias">
+                                <ns1:PortGroup id="urn:ogf:network:icair.org:2013:topology:netherlight-in"/>
+                            </ns1:Relation>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasInboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:starlight-1-in">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">1779-1794,1797-1799</ns1:LabelGroup>
+                            <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#isAlias">
+                                <ns1:PortGroup id="urn:ogf:network:icair.org:2013:topology:netherlight-out"/>
+                            </ns1:Relation>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasOutboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:uva-1-out">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">1779-1799</ns1:LabelGroup>
+                            <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#isAlias">
+                                <ns1:PortGroup id="urn:ogf:network:uvalight.net:2013:topology:netherlight-in"/>
+                            </ns1:Relation>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasInboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:uva-1-in">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">1779-1799</ns1:LabelGroup>
+                            <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#isAlias">
+                                <ns1:PortGroup id="urn:ogf:network:uvalight.net:2013:topology:netherlight-out"/>
+                            </ns1:Relation>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasOutboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:pionier-1-out">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">1779-1799</ns1:LabelGroup>
+                            <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#isAlias">
+                                <ns1:PortGroup id="urn:ogf:network:pionier.pl:2013:topology:netherlight-1-in"/>
+                            </ns1:Relation>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasInboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:pionier-1-in">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">1779-1799</ns1:LabelGroup>
+                            <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#isAlias">
+                                <ns1:PortGroup id="urn:ogf:network:pionier.pl:2013:topology:netherlight-1-out"/>
+                            </ns1:Relation>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasOutboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:czechlight-1-out">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">1779-1799</ns1:LabelGroup>
+                            <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#isAlias">
+                                <ns1:PortGroup id="urn:ogf:network:czechlight.cesnet.cz:2013:topology:netherlight-in"/>
+                            </ns1:Relation>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasInboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:czechlight-1-in">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">1779-1799</ns1:LabelGroup>
+                            <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#isAlias">
+                                <ns1:PortGroup id="urn:ogf:network:czechlight.cesnet.cz:2013:topology:netherlight-out"/>
+                            </ns1:Relation>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasOutboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:pionier:1-out">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">1780-1783</ns1:LabelGroup>
+                            <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#isAlias">
+                                <ns1:PortGroup id="urn:ogf:network:pionier.net.pl:2013:netherlight-pionier"/>
+                            </ns1:Relation>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasInboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:pionier:1-in">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">1780-1783</ns1:LabelGroup>
+                            <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#isAlias">
+                                <ns1:PortGroup id="urn:ogf:network:pionier.net.pl:2013:pionier-netherlight"/>
+                            </ns1:Relation>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasOutboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:surfnet-1-out">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">2-4094</ns1:LabelGroup>
+                            <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#isAlias">
+                                <ns1:PortGroup id="urn:ogf:network:surfnet.nl:1990:production7:netherlight-1-in"/>
+                            </ns1:Relation>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasInboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:surfnet-1-in">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">2-4094</ns1:LabelGroup>
+                            <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#isAlias">
+                                <ns1:PortGroup id="urn:ogf:network:surfnet.nl:1990:production7:netherlight-1-out"/>
+                            </ns1:Relation>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasOutboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:dlp01-out">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">2-4094</ns1:LabelGroup>
+                            <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#isAlias">
+                                <ns1:PortGroup id="urn:ogf:network:dummy:2013:dummy-in"/>
+                            </ns1:Relation>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                    <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#hasInboundPort">
+                        <ns1:PortGroup id="urn:ogf:network:netherlight.net:2013:production7:dlp01-in">
+                            <ns1:LabelGroup labeltype="http://schemas.ogf.org/nml/2012/10/ethernet#vlan">2-4094</ns1:LabelGroup>
+                            <ns1:Relation type="http://schemas.ogf.org/nml/2013/05/base#isAlias">
+                                <ns1:PortGroup id="urn:ogf:network:dummy:2013:dummy-out"/>
+                            </ns1:Relation>
+                        </ns1:PortGroup>
+                    </ns1:Relation>
+                </ns1:Topology>
+            </content>
+        </document>
+    </ns0:notification>
+    <ns0:notification>
+        <discovered>2015-02-13T13:45:51-08:00</discovered>
+        <event>All</event>
+        <document id="urn:ogf:network:caltech.edu:2013:nsa"
+            href="https://nsi-aggr-west.es.net/dds/documents/urn%3Aogf%3Anetwork%3Acaltech.edu%3A2013%3Ansa/vnd.ogf.nsi.nsa.v1%2Bxml/urn%3Aogf%3Anetwork%3Acaltech.edu%3A2013%3Ansa"
+            version="2014-09-22T12:12:00Z" expires="2016-09-22T12:34:34.701-04:00">
+            <nsa>urn:ogf:network:caltech.edu:2013:nsa</nsa>
+            <type>vnd.ogf.nsi.nsa.v1+xml</type>
+            <content>
+                <ns5:nsa id="urn:ogf:network:caltech.edu:2013:nsa" version="2014-09-22T12:12:00Z" expires="2016-09-22T12:34:34.701-04:00">
+                    <name>Caltech OSCARS uPA</name>
+                    <softwareVersion>nsibridge-v1</softwareVersion>
+                    <adminContact>
+                        <ns2:vcard>
+                            <ns2:uid>
+                                <ns2:uri>urn:uuid:c8cdbb80-dac7-11e3-9c1a-0800200c9a67</ns2:uri>
+                            </ns2:uid>
+                            <ns2:prodid>
+                                <ns2:text>Caltech - OSCARS NSI Bridge"</ns2:text>
+                            </ns2:prodid>
+                            <ns2:rev>
+                                <ns2:timestamp>20140513T195243Z</ns2:timestamp>
+                            </ns2:rev>
+                            <ns2:kind>
+                                <ns2:text>individual</ns2:text>
+                            </ns2:kind>
+                            <ns2:fn>
+                                <ns2:text>Azher Mughal</ns2:text>
+                            </ns2:fn>
+                            <ns2:n>
+                                <ns2:surname>Mughal</ns2:surname>
+                                <ns2:given>Azher</ns2:given>
+                            </ns2:n>
+                            <ns2:email>
+                                <ns2:text>azher@hep.caltech.edu</ns2:text>
+                            </ns2:email>
+                        </ns2:vcard>
+                    </adminContact>
+                    <location>
+                        <longitude>-118.125404</longitude>
+                        <latitude>34.13602</latitude>
+                    </location>
+                    <networkId>urn:ogf:network:caltech.edu:2013:</networkId>
+                    <interface>
+                        <type>application/vnd.ogf.nsi.cs.v2.provider+soap</type>
+                        <href>https://idc-v6.hep.caltech.edu:8500/ConnectionService</href>
+                        <describedBy>https://idc-v6.hep.caltech.edu:8500/ConnectionService?wsdl</describedBy>
+                    </interface>
+                    <feature type="vnd.ogf.nsi.cs.v2.role.uPA"/>
+                    <peersWith>urn:ogf:network:es.net:2013:nsa:nsi-aggr-west</peersWith>
+                </ns5:nsa>
+            </content>
+        </document>
+    </ns0:notification>
+</ns0:notifications>
+
