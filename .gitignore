@@ -1,0 +1,11 @@
+/target/
+/var/
+.classpath
+.project
+.settings/
+nsi-pce.iml
+.idea
+*.iml
+config/cache/*.xml
+/src/test/resources/config/repository/
+*.swp

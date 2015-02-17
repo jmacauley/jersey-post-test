@@ -142,7 +142,7 @@ public class NotificationTest {
             fail("Post request not accepted - " + response.getStatus());
         }
 
-        System.out.println("Post request accepted - " + response.getStatus());
+        log.debug("Post request accepted - " + response.getStatus());
         response.close();
     }
 
@@ -165,7 +165,7 @@ public class NotificationTest {
             fail("Post request not accepted - " + response.getStatus());
         }
 
-        System.out.println("Post request accepted - " + response.getStatus());
+        log.debug("Post request accepted - " + response.getStatus());
         response.close();
     }
 }
